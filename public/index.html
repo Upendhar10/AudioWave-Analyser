@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUDIO WAVEFORM ANALYZER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- # Splash Screen -->
+    <div class="Splash">
+        <img src="../assets/SvgSpinnersBlocksShuffle3.svg" alt="loading animation">
+    </div>
+    
+    <div class="container">
+        <!-- <input type="file"  accept="audio/*" multiple> -->
+        <div class="input-cont">
+            <h1>AUDIO <br> WAVEFORM <br> ANALYZER</h1>
+            <div class="upload">
+                <p>UPLOAD AUDIO </p>
+                <input type="file" accept="audio/*"> 
+            </div>
+
+            <audio controls ></audio> 
+        </div>
+
+        <div class="canvas-cont">           
+            <canvas></canvas>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
