@@ -11,10 +11,14 @@ setTimeout(()=>{
     removeSplash();
 },duration);
 
+
+// # Audio Tag
+const audioElem = document.querySelector('audio');
+
 // # AWFA
 
 const input = document.querySelector('input'); 
-const audioElem = document.querySelector('audio');
+// const audioElem = document.querySelector('audio');
 
 // canvas
 const canvas = document.querySelector('canvas');
