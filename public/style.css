@@ -6,9 +6,14 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-::-webkit-scrollbar {
+.container::-webkit-scrollbar {
     scroll-behavior: smooth;
     display: none;
+}
+
+.canvas-cont::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
 }
 
 body {
